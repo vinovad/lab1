@@ -1,0 +1,271 @@
+\documentclass[10pt, a4paper]{article} 
+\usepackage{CJKutf8}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol} %колонки
+\usepackage{setspace} %межстрочный интервал
+\usepackage{ragged2e}% выравнивания текста по ширине в документе.
+\usepackage{fancyhdr} %настройки верхнего и нижнего колонтитулов в документе.
+\usepackage{titlesec} %стилей заголовков разделов в документе.
+\usepackage{enumitem} %настройки списков в документе.
+\usepackage {graphicx}%Вставка картинок 
+\usepackage[centercaption]{sidecap}
+\usepackage{subfigure}
+\usepackage{float}%"Плавающие" картинки
+\usepackage{wrapfig}%Обтекание фигур (таблиц, картинок и прочего)
+
+\usepackage[left=1.9cm,right=1.9cm, top=2.2cm,bottom=2.5cm]{geometry}
+\justifying % выравнивает текст по ширине.
+\fancyhf{} %очищает все верхние и нижние колонтитулы.
+\renewcommand{\headrulewidth}{0pt} % remove the header rule
+\cfoot{\vskip -1.5cm \thepage} %устанавливает номер страницы в нижнем колонтитуле.
+\linespread{0.84} %устанавливает межстрочный интервал 
+\setlength{\columnsep}{0.5cm}
+\setcounter{page}{36}
+\renewcommand{\thesection}{\Roman{section}} %устанавливает стиль нумерации разделов в виде заглавных римских цифр.
+\titleformat{\section}{\footnotesize\centering\sc}{\thesection.}{0cm}{}[] %настраивает стиль заголовков разделов.
+\begin{document}
+\fontsize{10}{14}\selectfont
+\begin{multicols}{2}
+\setlength{\parindent}{0.8cm}
+\setlength{\parindent}{0.4cm}
+\fontsize{10}{15}\selectfont
+\par\ The features for a finite set can be computed as a
+generalized or stepped average:
+\begin{center}
+ $\sqrt[p]{\frac{\sum_{x\in\mathbf{S^{{x}^{p}}}}}{\mid{\mathbf{S}\mid} }}$\qquad      
+\end{center} 
+\par\  For a finite set of objects (an element of the product
+of metric spaces), metrics based on the (stepped) mean
+can be considered
+\[d(\langle P,Q \rangle)=\sqrt[p]{\sum_ { x \in\mathbf{P}}\sum_ { y \in\mathbf{Q}}d(\langle x,y \rangle)^p }\]
+\par\  The transition from an unbounded metric to a metric
+as a bounded monotone (fuzzy) measure, can be realized
+according to:
+\[\lim_ { z \to\ d(\langle x,y \rangle) }
+    \frac{z}{1+z}\]
+or any other semi-additive monotonically increasing
+bounded function from the point (0; 0):
+\begin{center}
+    $f(x+y)\le f(x)+f(y)$
+\end{center}
+\par\ For a metric on linear representations by generalized
+strings, we can use either the edit distance between them
+or the minimum of the edit distances between the results
+of the action of a subgroup of the symmetric group
+of permutations of linear representations by generalized
+strings.
+\par \ Let us consider an algorithm for finding the extensional closure of a concept:
+\begin{itemize} [noitemsep] \fontsize{10}{15}\selectfont
+    \item[1] The distensible set of the extensional closure is empty.
+    \item[2] Include a concept in the current front.
+    \item[3] Construct a new next front by going deep down the extensional.
+    \item[4]  Subtract the current front from the next front.
+    \item[5] Add the elements of the current edge to the distensional set of the extensional closure.
+    \item[6] If the next edge is empty return the extensional closure.
+    \item[7] Make the next edge the current edge, go to step 3.
+    
+\end{itemize} 
+\linespread{0.8}
+\par \ Consider an algorithm for computing the metric
+(quasi-metric) on the union of (finite) extensional closures of concepts:
+
+\begin{itemize}[noitemsep] \fontsize{10}{15}\selectfont
+ \item[1] Find the extensional closure of the first concept.
+ \item[2] Find the extensional closure of the second concept.
+ \item[3] If the intersection of the found closures is empty
+then return the metric equal to infinity.
+\item[4] If one concept lies in the extensional closure of
+another, then find the distance from the other to
+the first and return the metric equal to the smallest
+of the found ones.
+\item[5] Descend from each concept deep into the extensional closure to the intersection of the extensional
+closures and remember the lengths of descent as \textit{A} 
+and \textit{B}.
+\item[6] Stepwise descent in the intersection of closures to continue until the moment of meeting, calculate the
+corresponding lengths \begin{math} A'
+\end{math} and \begin{math} B'.
+\end{math}
+\item[7] Return the metric  \begin{math} A + A' + (B+B') * 1. \end{math}
+\end{itemize}
+\par \ Each static structure (with its own denotational semantics [19]) and its characteristics can be related (see Fig.6, Fig.7) to the dynamic structure of a (formal) information processing model based on that static structure and its operations (possibly within \begin{math} {A^{(+_{7}^{*})}}
+\end{math} [57]. Such dynamic structures and their corresponding operations are described by a big-step operational semantics. The connection between small-step [16], [52] and big-step operational semantics [6] can be revealed through the connections between the operational-information space and the (formal) information processing model. Operational information space can be described as follows. A set of data instances \textit{V}, a set of channels \textit{P}, a set of operators \textit{K}, a set of (commutative) operations \textit{O}, a set of configurations \textit{C}, a sequence of configurations \textit{R} 
+\begin{center}
+\begin{math} R \subseteq C × C
+\end{math}
+\end{center}
+\begin{center}
+\begin{math}
+O \subseteq {2^{V^{2}×V}} \cup {2^{V×V^{2}}}
+\end{math} 
+\end{center}
+\[C \subseteq {2^{K\cup P\cup (P×(V\cup K))\cup (K×(O\cup P)) }}\]
+\linespread{0.8}
+If a new parameter (with a value) is added to a configuration operation, it is possible to jump to the updated configuration that contains it.
+\par \ If a new operation is added to the configuration parameters, it is possible to switch to the updated configuration that contains it.
+\par \ It is possible to switch to a configuration that does not contain an operation.
+\par \ It is possible to jump to a configuration that does not contain a parameter that is not used by an operation.
+\par \ Consider the flows of an open (acyclic (Fig.2)) or closed path (cyclic (Fig.3)) for the corresponding open or closed structures and assume the following requirements for its flow $c_{ij}$ [57].
+\par \ Each edge is mapped to a flow (energy) $c_{ij}$. To each
+vertex s there is a flow \begin{math} c_s=\sum{{^{n}_{j=1}}}\ c_{sj}\end{math}. 
+In addition to the forward flow, the reverse flow \begin{math}
+ c{{^{-1}_{ji}}}, c{{^{-1}_{s}}}=\sum{{^{n}_{j=1}}} c{{^{-1}_{sj}}} 
+\end{math} is also computed. Their difference is equal to:\begin{math}\
+d_{ij} = c_{ij} - c{{^{-1}_{ji}}}, d_s=c_s-c{{^{-1}_{s}}}.
+\end{math}\ The direct (local) amplitude is
+calculated as follows \begin{math} p_{ij}=\frac{d_{ij}}{c_i+c{{^{-1}_{i}}}} + \frac{1}{\sum{{^{V}_{j=1}}}\ a_{ij}}.
+\end{math}
+
+\[\sum_{j=1}^{N}c_{ij}=\sum_{j=1}^{N}c_{ji}\]
+
+\par
+  \[c_{ij}=\frac{\sum{{^{N}_{j=1}}}{c_{ij}}}{{\sum{{^{N}_{j=1}}}{a_{ij}}}}* a_{ij};c_{ij}*\sum_{j=1}^{N}a_{ij}=a_{ij}*\sum_{j=1}^{N}c_{ij}\]
+Also in matrix form we have:
+\[A^{T}*C=(A*1)\bullet C\]
+ For the structure in Fig.3 and its forward flow we have:
+ \begin{equation*}
+ \begin{cases}
+   c_{11} = c_{12}
+   \\
+  c_{56}=c_{57}
+   \\
+   c_{89}=c_{814}
+   \\
+   c_{1112}=c_{1113}
+ \end{cases}
+\end{equation*}
+\ Let us find the minimum solution in natural numbers.
+\par As a result of fulfillment of these requirements we
+obtain the following table of results (see Fig.3, Fig.4,
+Fig.8, Fig.5).
+%таблица
+\begin{center}
+ \caption {\footnotesize{Table I \par 
+Table of dynamic structure characteristics}\vspace{0.3cm}}
+\resizebox{0.35\textwidth}{!}{
+
+\begin{tabular}{ |c|c|c|c|}
+
+\hline
+\textbf {Edge} & \textbf{Flow} & \textbf {Forward} & \textbf{Backward} \\ \textbf {number} & \textbf{difference} & \textbf {amplitude } & \textbf{amplitude} \\ 
+\hline
+0 & 3 & 19/32 & 35/35=1  \\
+\hline
+1 & -3 & 13/32 & 29/29=1 \\ 
+     \hline
+2 & 3 & 35/35=1 & 35/35=1 \\
+ \hline
+ 3 & -3 & 29/29=1 & 29/29=1\\
+ \hline
+4 & 3 & 35/35=1 & 19/34\\
+\hline
+5 & -1 & 15/29 & 15/34\\
+\hline
+6 & -2 & 14/29 & 30/30=1\\
+\hline
+7 & 2 & 34/34=1 & 34/34=1 \\
+\hline
+8 & -2 & 30/30=1 & 30/30=1 \\
+\hline
+9 & 0 & 16/34=8/17 & 16/30=8/15\\
+\hline
+10 & 2 & 18/34=9/17 & 18/35\\
+\hline
+11 & -2 & 30/30=1 & 14/30=7/15\\
+\hline
+12 & -2 & 30/30=1 & 30/30=1\\
+\hline
+13 & 1 & 17/30 & 33/33=1\\
+\hline
+14 & -3 & 13/30 & 29/29=1 \\
+\hline
+15 & 1 & 33/33=1 & 17/35\\
+\hline
+16 & -3 & 29/29=1 & 29/29=1\\
+\hline
+17 & 3 & 35/35=1 & 35/35=1\\
+\hline
+18 & -3 & 29/29=1 & 13/32\\
+\hline
+19 & 3 & 35/35=1 & 19/32 \\
+\hline
+ \end{tabular} }
+ \end{center}
+\par \ An analogous result can be obtained for an open (nonclosed) structure (Fig. 2).
+\par \ Each strongly connected structure has an (own) period \textit T, which is the GCD of all periods (lengths of simple 
+cycles) in this structure, and has a partition by levels of
+wave fronts corresponding to this period. We will call the
+number of these levels the length of the structure \textit {L = T}.
+The length \textit L of an acyclic structure is the maximum
+length of the shortest route for two connected vertices.
+Each (acyclic) structure has a mapping \textit W of the set of
+numbers of moments of time [9] to the set of subsets
+of vertices by levels of wavefronts at given moments of
+time, the number of which does not exceed the length
+and diameter of the structure. Each wavefront has an
+energy $E(t)=\sum_{s\in W(t)}c_s.$  The wavefront energy can be different from 1. The amplitude at the top of the
+wavefront $p_s^t=\frac{c_s}{E(t)}$ is in the interval [0; 1]. The average amplitude is inversely proportional to the number of front elements $\frac{E(t)}{|W(t)|}$.
+\par \ The amount of information of the wavefront at the
+moment \textit{t} is expressed.
+\[ -\sum_{s\in W(t)} \Bigg(\frac{|U_s^{(t)}|}{p_s^t}*\ln\frac{|U_s^{(t)}|}{p_s^t}\Bigg)\]
+\vspace{-0,7cm}
+\setcounter{figure}{1}
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\linewidth]{1.png}
+\caption{\small Acyclic orgraph weighted structure.}
+\label{fig:mpr}
+\end{figure}
+ \vspace{-0,5cm}
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\linewidth]{2.png}
+\caption{\small Strong connected flow difference weighted orgraph.}
+\label{fig:mpr}
+\end{figure}
+Set of undistinguishable vertices of the wavefront
+     \[\left\{s\right\} \subseteq U_s^{(t)}\subseteq W(t)\]  
+\ The average (arithmetic) amount of information of the
+structure:
+\[ -\frac{1}{T}*\sum_{t=1}^T \sum_{s\in W(t)} \Bigg(\frac{|U_s^{(t)}|}{p_s^t}*\ln\frac{|I_{(t)}|*{|U_s^{(t)}|}}{T*{p_s^t}}\Bigg)\]
+ \vspace{-0,79cm}
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.1\linewidth]{3.png}
+\caption{\small Strong connected orgraph forward flow.}
+\label{fig:mpr}
+\end{figure}
+\end{multicols}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\linewidth]{4.png}
+\caption{\small  Strong connected orgraph flow difference weights matrix.}
+\label{fig:mpr}
+\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\linewidth]{5.png}
+\caption{\small Asymmetric ontological structure with corresponding dynamic structure.}
+\label{fig:mpr}
+\end{figure}
+\begin{multicols}{2}
+\setlength{\parindent}{0.8cm}
+\setlength{\parindent}{0.4cm}
+\fontsize{10}{15}\selectfont
+\par \ A set of indistinguishable moments in time
+\begin{center}
+\begin{math} \{t\} \subseteq I_{(t)}  \subseteq Dom(W)
+\end{math}
+\end{center}
+\par \ The information in a strongly connected structure will be called real (elliptic), and in an acyclic structure will be called imaginary (hyperbolic).
+\par \ Two kinds of structures are considered: a (finite)
+acyclic graph and a strongly connected pseudograph. An
+arbitrary (finite) pseudograph structure can be decomposed into its connected components. An arbitrary (finite) connected pseudograph structure can have different
+kinds of substructures and, in particular, can be broken
+down into the two kinds of structures discussed earlier: strongly connected components (subpseudographs),
+acyclic graphs (subgraphs). However, within a structure,
+these substructures can have different relationships and
+fulfill different roles [66]. Let us describe different types of substructures according to their roles (relations) performed (available) in the structure [66].
+\par \ Resonators are maximal strongly connected subpseuwhose elements at least one other (different) 
+\end{multicols}
+\end{document}
