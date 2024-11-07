@@ -25,7 +25,7 @@
 
 <img src="https://ltdfoto.ru/images/2024/11/07/FORMULY5c785c64ec29beb0.png" alt="FORMULY5c785c64ec29beb0.png" border="0"  alt="Пример" width="400"  />
 Также на протяжении всего документа мы используем форматирование текста в две колонки:
-<img src="https://ltdfoto.ru/images/2024/11/07/KOLONKI.png"   alt="Пример" width="400"/>
+<img src="https://ltdfoto.ru/images/2024/11/07/KOLONKIb574ba0b0a368890.png" alt="Пример" width="400"/>
 
 ## Описание работы программы
 Документ включает в себя примеры форматирования, представленные следующим образом:
